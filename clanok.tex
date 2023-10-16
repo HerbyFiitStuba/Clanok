@@ -12,32 +12,38 @@
 
 \usepackage{cite}
 %\usepackage{times}
+\usepackage{multicol}
 
 \pagestyle{headings}
 
-\title{Cvicenie 3\thanks{Semestrálny projekt v predmete Metódy inžinierskej práce, ak. rok 2015/16, vedenie: Meno Priezvisko}} % meno a priezvisko vyučujúceho na cvičeniach
+\title{MODERN SEARCH METHODS AND ALGORITHMS BEHIND THEM\thanks{Semestrálny projekt v predmete Metódy inžinierskej práce, ak. rok 2023/24, vedenie: Mirwais Ahmadzai}} % meno a priezvisko vyučujúceho na cvičeniach
 
 \author{Matej Herzog\\[2pt]
 	{\small Slovenská technická univerzita v Bratislave}\\
 	{\small Fakulta informatiky a informačných technológií}\\
-	{\small \texttt{...@stuba.sk}}
+	{\small \texttt{xherzog@stuba.sk}}
 	}
 
-\date{\small 30. september 2015} % upravte
+\date{\small 30. september 2023} % upravte
 
 
 
 \begin{document}
+\begin{multicols}{2} % Start two-column layout
 
 \maketitle
 
 \begin{abstract}
+In my article, I want to concentrate on the analysis and comparison of the methods modern-day search engines use to find the correct answers to queries or to address the most relevant web page or article related to the search topic, as well as bring a short insight to the history and needs for better information extraction. I also want to devote a part of my work to an insight into the algorithms used in the process and evaluate why some methods are better for a specific problem and some not. My work should explain to the reader how net or online library search works and how the software engineers design the algorithms to get the desired outcome.
 \ldots
 \end{abstract}
 
 
 
-\section{Úvod}
+\section{Introduction}
+Brief overview of the importance of search engines in our daily lives.
+The growth of the internet and the need for effective search methods.
+Purpose and structure of the article.
 
 Motivujte čitateľa a vysvetlite, o čom píšete. Úvod sa väčšinou nedelí na časti.
 
@@ -46,14 +52,15 @@ Základný problém, ktorý bol naznačený v úvode, je podrobnejšie vysvetlen
 Dôležité súvislosti sú uvedené v častiach~\ref{dolezita} a~\ref{dolezitejsia}.
 Záverečné poznámky prináša časť~\ref{zaver}.
 
-\section{Skuska cvicenie 3}
+\section{History of Search Engines}
+Early search engines and their limitations.
+Milestones in search engine development (e.g., Google's PageRank algorithm).
+The evolution from simple keyword-based to more complex algorithms.
 
-Rozbehal som git repository 
-
-\section{Testujeme New Section}
-je to celkom fajny software
-
-\section{Nejaká časť zmené test} \label{nejaka}
+\section{Information Retrieval and Extraction} \label{nejaka}
+Explanation of the information retrieval process.
+The role of Natural Language Processing (NLP) in modern search.
+Challenges in understanding user queries and web content.
 
 Z obr.~\ref{f:rozhod} je všetko jasné. 
 
@@ -67,7 +74,11 @@ Aj text môže byť prezentovaný ako obrázok. Stane sa z neho označný pláva
 
 
 
-\section{Iná časť} \label{ina}
+\section{Modern Search Methods} \label{ina}
+Keyword-based search vs. semantic search.
+Machine learning and AI in search engines.
+Personalization and recommendation systems.
+Voice and visual search.
 
 Základným problémom je teda\ldots{} Najprv sa pozrieme na nejaké vysvetlenie (časť~\ref{ina:nejake}), a potom na ešte nejaké (časť~\ref{ina:nejake}).\footnote{Niekedy môžete potrebovať aj poznámku pod čiarou.}
 
@@ -106,18 +117,34 @@ Niekedy je potrebné nadpisom označiť odsek. Text pokračuje hneď za nadpisom
 
 
 
-\section{Dôležitá časť} \label{dolezita}
+\section{Algorithms in Search Engines} \label{dolezita}
+An overview of the key algorithms used, such as PageRank, TF-IDF, and more.
+Deep dive into the workings of these algorithms and their strengths and weaknesses.
+How search engines use these algorithms to rank web pages and content.
 
 
 
+\section{Relevance and Ranking} \label{dolezitejsia}
+Factors that determine the relevance of search results.
+User behavior analysis and click-through rates.
+The role of user feedback in improving search algorithms.
 
-\section{Ešte dôležitejšia časť} \label{dolezitejsia}
+\section{Challenges and Future Trends}
+Discuss search engines' challenges (e.g., fake news detection, privacy concerns).
+Upcoming search technology trends include voice and visual search, quantum computing, and AI advancements.
 
 
+\section{Designing Search Algorithms}
+Explanation of the process of designing search algorithms.
+Role of data collection and quality in training search models.
+The iterative process of refining algorithms based on user feedback.
 
+\section{Conclusion}
+Summarize the key points discussed in the article.
+Emphasize the importance of ongoing research and development in search technology.
+Highlight the impact of search engines on information access and the internet.
 
-\section{Záver} \label{zaver} % prípadne iný variant názvu
-
+\end{multicols} % End two-column layout
 
 
 %\acknowledgement{Ak niekomu chcete poďakovať\ldots}
